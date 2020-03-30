@@ -11,6 +11,7 @@ public class exercicio36 {
 		
 		System.out.print(nome+" "+sobrenome);
 		
+		scanner.close();
 		
 	}
 	

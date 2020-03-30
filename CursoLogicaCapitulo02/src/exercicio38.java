@@ -20,6 +20,8 @@ public class exercicio38 {
 			System.out.println("Não passou!");
 		}
 		
+		scanner.close();
+		
 	}
 
 }

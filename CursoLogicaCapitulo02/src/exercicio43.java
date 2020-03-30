@@ -33,6 +33,6 @@ public class exercicio43 {
 		}
 		
 		System.out.println("O resultado é: " + result);
-		
+		scanner.close();
 	}
 }

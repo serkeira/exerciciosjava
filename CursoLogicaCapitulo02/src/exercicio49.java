@@ -21,6 +21,7 @@ public class exercicio49 {
 			System.out.println("Não pode se aposentar ainda.");
 		}
 		
+		scanner.close();
 	}
 
 }
