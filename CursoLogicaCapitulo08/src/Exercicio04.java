@@ -26,7 +26,7 @@ public class Exercicio04 {
 	
 	}
 	
-	static void imprimirTabuada(Integer multiplicando, Integer multiplicador) {
+	public void imprimirTabuada(Integer multiplicando, Integer multiplicador) {
 		System.out.println(multiplicando + "x" + multiplicador + " = " + (multiplicando * multiplicador));
 		
 		if (++multiplicador <= 10) {
