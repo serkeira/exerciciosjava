@@ -13,9 +13,9 @@ public class Main {
 		
 		Produto produto = new Produto();
 		produto.nome = "Iphone 11 64GB";
-		produto.quantidadeEstoque = 15;
+		produto.quantidadeEstoque = 9;
 		
-		if (verificarEstoque(produto)) {
+		if (produto.verificarEstoque()) {
 			System.out.println("Necessário repor o produto, pois há menos que 10 em estoque");
 		} else {
 			System.out.println("O produto está com estoque suficiente.");
@@ -24,10 +24,6 @@ public class Main {
 		
 	}
 
-	private boolean verificarEstoque(Produto produto) {
-		Boolean necessarioRepor = produto.quantidadeEstoque < 10;
-		return necessarioRepor;
-		
-	}
+	
 
 }
