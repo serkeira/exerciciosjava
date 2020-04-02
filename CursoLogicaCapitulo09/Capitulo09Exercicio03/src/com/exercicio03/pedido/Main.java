@@ -5,9 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 
 		Pedido pedido = new Pedido();
-		pedido.codigo = 1;
-		pedido.subtotal = 450.0;
-		pedido.desconto = 50.0;
+		pedido.setCodigo(1);
+		pedido.setSubtotal(450.0);
+		pedido.setDesconto(50.0);
 		//pedido.total = 400.0;
 		
 		System.out.println("Utilização de Métodos de Instância + Encapsulamento");

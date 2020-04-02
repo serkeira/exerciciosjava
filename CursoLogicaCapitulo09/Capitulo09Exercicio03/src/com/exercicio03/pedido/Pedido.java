@@ -2,11 +2,11 @@ package com.exercicio03.pedido;
 
 public class Pedido {
 	
-	Integer codigo;
+	private Integer codigo;
 	
-	Double subtotal;
+	private Double subtotal;
 	
-	Double desconto;
+	private Double desconto;
 	
 	//Double total;
 	
